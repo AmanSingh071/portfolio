@@ -57,7 +57,7 @@ function Projects() {
             <ProjectCard
               imgPath={servicely}
               isBlog={false}
-              title="Editor.io"
+              title="Servicely"
               description={<p><p>By employing static site generation, we achieved a remarkable 40% reduction in load times, significantly boosting overall system efficiency. </p>
               <p>  Our innovative feature empowers users to connect with top-rated service providers seamlessly through real-time chat capabilities.</p>
                 <p>Elevate user engagement through integrated in-app chat and live geolocation features, facilitating interactions with top-rated service providers.</p>
