@@ -408,7 +408,7 @@ button:focus {
   padding-bottom: 8px !important ;
 } */
 @media (max-width: 1800px) {.footer {
-  position:relative; /* or position: absolute; depending on your layout needs */
+  position:fixed; /* or position: absolute; depending on your layout needs */
   bottom: 0;
   left: 0;
  
