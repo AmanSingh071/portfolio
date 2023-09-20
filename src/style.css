@@ -401,15 +401,25 @@ button:focus {
 /* --------- */
 /* Footer */
 /* --------- */
- @media (max-width: 1800px) {
-  .footer {
-    background-color: rgb(10, 4, 22);
-    bottom: 0 !important;
-    padding-top: 10px !important;
-    padding-bottom: 8px !important ;
-  }  
- } 
- 
+/* .footer {
+  background-color: rgb(10, 4, 22);
+  bottom: 0 !important;
+  padding-top: 10px !important;
+  padding-bottom: 8px !important ;
+} */
+@media (max-width: 1800px) {.footer {
+  position:relative; /* or position: absolute; depending on your layout needs */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+   bottom: 0 !important;
+  padding-top: 10px !important;
+  padding-bottom: 8px !important ;
+  background-color: rgb(10, 4, 22); /* Adjust the background color as needed */
+    /* Adjust the text color as needed */
+  padding: 20px; /* Adjust the padding as needed */
+  /* Add any other styles you require */
+}}
 .footer-copywright {
   text-align: center !important;
 }
