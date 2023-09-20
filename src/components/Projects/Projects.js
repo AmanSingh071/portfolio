@@ -63,7 +63,7 @@ function Projects() {
                 <p>Elevate user engagement through integrated in-app chat and live geolocation features, facilitating interactions with top-rated service providers.</p>
                </p>
               } 
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              ghLink="https://github.com/AmanSingh071/servicely"
               // demoLink=" "              
             />
           </Col>
